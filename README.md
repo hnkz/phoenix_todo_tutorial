@@ -1,9 +1,20 @@
-# phoenix-todo-tutorial
+# TodoTutorial
 
-- 技術書典7「Phoenix入門 〜API構築からLiveViewまで〜」の開発環境構築用Dockerファイル
-- 詳細な手順は書籍「p.8 環境構築」をご参照ください
+To start your Phoenix server:
 
-## バージョン
+  * Install dependencies with `mix deps.get`
+  * Create and migrate your database with `mix ecto.setup`
+  * Install Node.js dependencies with `cd assets && npm install`
+  * Start Phoenix endpoint with `mix phx.server`
 
-- Elixir  :1.8.1
-- Phoenix :1.4.9
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+
+## Learn more
+
+  * Official website: http://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Mailing list: http://groups.google.com/group/phoenix-talk
+  * Source: https://github.com/phoenixframework/phoenix
